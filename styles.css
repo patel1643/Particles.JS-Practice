@@ -1,4 +1,4 @@
-@media (min-width: 1300px)  {
+/* @media (min-width: 1300px)  { */
   body{
     margin: 0;
     overflow: hidden;
@@ -8,7 +8,9 @@
     height: 800px;
 
   }
-
+#particles-js{
+  height: inherit;
+}
 
   .center{
     position: absolute;
@@ -41,8 +43,4 @@
   background: rgba(68, 80, 94, 0.6);
   }
 
-}
-
-@media (max-width: 700px) {
-   
-}
+/* } */
